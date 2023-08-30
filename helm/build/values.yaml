@@ -1,0 +1,15 @@
+app:
+  name: jmjohn732-poi-backend-app
+  namespace: jmjohn732
+  cluster: .apps.a1jxqhzp.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-deploy/jmjohn732-backend
+  org: rhdh-deploy
+  name: jmjohn732-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: jmjohn732/poi-backend-app
+  tag: latest
